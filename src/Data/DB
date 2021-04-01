@@ -23,7 +23,7 @@ while [ $date_curr -lt "$date_now" ] ; do
 
     # add and commit it with the date
     git add "$date_curr"
-    git commit -m "Autocommit: $date_curr" --date="$date_curr"
+    git commit -m "DataSet: $date_curr" --date="$date_curr"
 
     # increment the date
     increment_date
